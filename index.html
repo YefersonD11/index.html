@@ -23,6 +23,7 @@
             color: white;
             text-decoration: none;
             border-radius: 5px;
+           
         }
 
         a.button:hover {
@@ -31,22 +32,72 @@
 
         .circule {
 
-            width: 300px;
-            height: 300px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             border: 5px solid black;
 }
+img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+}
+
+
+body {
+    background-color: blue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    align-self: flex-start;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+ul li {
+    position: relative;
+    list-style: none;
+}
+
+
     </style>
 </head>
 <body>
-    <h1> Mis Redes Sociales</h1>
+    <h1> Mis Redes Sociales</h1> 
     <ul>
 
         <li1> <a href="https://www.instagram.com/malafamaaff?igsh=MXZt0hc3M3VmN3p0MQ=="class="button">Instragram</a></li1>
         <li2><a href="https://www.tiktok.com/@malafamaff" class="button">TikTok</a></li2>
             <li3><a href="https://whatsapp.com/channel/0029VaHJWtnFnSz5HIHIWx40"class="button">WhatsApp</a></li3>
           <li4><a href="https://youtube.com/@malafamaff632?si=r7EDl7LMVqUn48Da" class="button">Youtube</a></li4>
-          <img src="img/mafalda.jpg" class="circule" alt="">
+          <div class="contenedor">
+            <img src="img/mafalda.jpg" class="circule" alt="">
+          </div>
+         <p1>By YefersonD</p1>
 
     </ul>
 </body>
